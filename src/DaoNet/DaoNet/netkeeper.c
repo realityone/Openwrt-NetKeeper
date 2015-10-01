@@ -10,6 +10,7 @@
 
 #include <stdlib.h>
 #include <string.h>
+#include <arpa/inet.h>
 
 void dao_aes_setup(dao_aes_ctx *ctx, int mode, const char *key) {
     size_t key_length;
